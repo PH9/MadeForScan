@@ -14,5 +14,6 @@ The purpose of scan you project or app is to which dependency you use are not se
 ## Run
 
 ```shell
+bundle-audit update
 dependency-check --failOnCVSS 0 -s . -o . --enableExperimental
 ```
