@@ -3,4 +3,9 @@
 source "https://rubygems.org"
 
 gem "cocoapods"
+gem "cocoapods-binary"
+gem "fastlane"
+gem "slather"
+
+gem "xcode-install"
 gem "bundle-audit"
