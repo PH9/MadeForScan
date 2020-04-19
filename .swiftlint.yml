@@ -1,0 +1,5 @@
+excluded:
+  - Pods
+  - Carthage
+
+indentation: 2

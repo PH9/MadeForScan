@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -90,7 +90,6 @@
 				DFB93C2495A6729EE0922627 /* Pods-MadeForScan.debug.xcconfig */,
 				45FC7D3C688F94B4B0CFB7E5 /* Pods-MadeForScan.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,6 +100,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16326A9A244C249E00D596AC /* Build configuration list for PBXNativeTarget "MadeForScan" */;
 			buildPhases = (
+				16326A9E244C329B00D596AC /* Swiftlint */,
 				96E2E559DA370D7FB23C2812 /* [CP] Check Pods Manifest.lock */,
 				16326A82244C249D00D596AC /* Sources */,
 				16326A83244C249D00D596AC /* Frameworks */,
@@ -163,6 +163,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		16326A9E244C329B00D596AC /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swiftlint autocorrect --format\nswiftlint\n";
+		};
 		96E2E559DA370D7FB23C2812 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
