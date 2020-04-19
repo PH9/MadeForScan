@@ -24,6 +24,7 @@
 		16326A92244C249E00D596AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16326A95244C249E00D596AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16326A97244C249E00D596AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16326A9D244C282900D596AC /* MadeForScan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MadeForScan.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		16326A88244C249D00D596AC /* MadeForScan */ = {
 			isa = PBXGroup;
 			children = (
+				16326A9D244C282900D596AC /* MadeForScan.entitlements */,
 				16326A89244C249D00D596AC /* AppDelegate.swift */,
 				16326A8B244C249D00D596AC /* SceneDelegate.swift */,
 				16326A8D244C249D00D596AC /* ViewController.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MadeForScan/MadeForScan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MadeForScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +295,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ph9.MadeForScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MadeForScan/MadeForScan.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MadeForScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ph9.MadeForScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
