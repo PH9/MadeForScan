@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "brew": {
+      "dependency-check": {
+        "version": "5.3.2",
+        "bottle": false
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.13",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "577c13f16c2d9781d6f94fb8e5c52df084c60a00",
+        "CLT": "",
+        "Xcode": "11.4.1",
+        "macOS": "10.15.4"
+      }
+    }
+  }
+}
