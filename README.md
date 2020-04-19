@@ -11,3 +11,8 @@ The purpose of scan you project or app is to which dependency you use are not se
 3. You may need `bundler`, install by `[sudo] gem install bundler`
 4. Then install gem via bundler by enter `bundle install`
 
+## Run
+
+```shell
+dependency-check --failOnCVSS 0 -s . -o . --enableExperimental
+```
