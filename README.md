@@ -13,7 +13,28 @@ The purpose of scan you project or app is to which dependency you use are not se
 
 ## Run
 
-```shell
+Dont' forgot to update bundle-audit first
+
+```sh
 bundle-audit update
-dependency-check --failOnCVSS 0 -s . -o . --enableExperimental
 ```
+
+Then
+
+```sh
+dependency-check --failOnCVSS 0 -s . -o .
+```
+
+Or ignore some CVEs that already defined in [dependency-suppressions.xml](dependency-suppressions.xml). If you ignore the CVE will not be report.
+
+```sh
+dependency-check -s . -o . --suppression dependency-suppressions.xml
+```
+
+You can make command return non-zero value to make your build pipline fail by adding `--failOnCVSS <score>`. Score is from 0 to 10 (lower is better) default value is 11 so it will never be fail.
+
+```sh
+dependency-check --failOnCVSS 0 s . -o .
+```
+
+***NOTE*** `--failOnCSVSS <score>` should be always in font of `-s <path> -o <path>` or will never return non zero
