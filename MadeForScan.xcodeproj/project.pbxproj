@@ -100,8 +100,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16326A9A244C249E00D596AC /* Build configuration list for PBXNativeTarget "MadeForScan" */;
 			buildPhases = (
-				16326A9E244C329B00D596AC /* Swiftlint */,
 				96E2E559DA370D7FB23C2812 /* [CP] Check Pods Manifest.lock */,
+				16326A9E244C329B00D596AC /* Swiftlint */,
 				16326A82244C249D00D596AC /* Sources */,
 				16326A83244C249D00D596AC /* Frameworks */,
 				16326A84244C249D00D596AC /* Resources */,
