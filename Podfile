@@ -6,5 +6,8 @@ target 'MadeForScan' do
   use_frameworks!
 
   # Pods for MadeForScan
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'Firebase/Auth'
 
 end
