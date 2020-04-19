@@ -7,6 +7,8 @@ gem "cocoapods-binary"
 gem "fastlane"
 gem "slather"
 
+gem "badge"
+
 gem "xcode-install"
 gem "bundle-audit"
 
